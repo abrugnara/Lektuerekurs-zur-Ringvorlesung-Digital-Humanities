@@ -25,7 +25,7 @@
 | Kulturelle Konzepte | ἀρετή = Trefflichkeit + Tugend + Tapferkeit | S. 33, §1: „(2) Kultureller Kontext: Begriffe wie ἀρετή, die Exzellenz, Tugend und Tapferkeit umfassen" |
 | Historische Referenzen | kontextuelles Wissen unabdingbar | S. 33, §1: „(3) Historische Bezüge: Häufige Anspielungen erfordern Kontextwissen" |
 | Ambiguität | verschiedene Interpretationen desselben Textes | S. 34, §1: „(4) Mehrdeutigkeit und Wortspiele: Mehrdeutigkeiten im Ausgangstext führen oft zu unterschiedlichen Interpretationsmöglichkeiten" |
-| Odyssee-Schluszitat | Über 70 englische Übersetzungen — Übersetzung als ‚Nacherzählen' | S. 34, §1: „Allein Homers ‚Odyssee' hat über 70 englische Versionen [8], von denen keine identisch ist… Übersetzung wird so zu einem ‚Nacherzählen'" |
+| Odyssee-Schlusszitat | Über 70 englische Übersetzungen — Übersetzung als ‚Nacherzählen' | S. 34, §1: „Allein Homers ‚Odyssee' hat über 70 englische Versionen [8], von denen keine identisch ist… Übersetzung wird so zu einem ‚Nacherzählen'" |
 
 ---
 
