@@ -25,7 +25,7 @@
 | Kulturelle Konzepte | ἀρετή = Trefflichkeit + Tugend + Tapferkeit | S. 33, §1: „(2) Kultureller Kontext: Begriffe wie ἀρετή, die Exzellenz, Tugend und Tapferkeit umfassen" |
 | Historische Referenzen | kontextuelles Wissen unabdingbar | S. 33, §1: „(3) Historische Bezüge: Häufige Anspielungen erfordern Kontextwissen" |
 | Ambiguität | verschiedene Interpretationen desselben Textes | S. 34, §1: „(4) Mehrdeutigkeit und Wortspiele: Mehrdeutigkeiten im Ausgangstext führen oft zu unterschiedlichen Interpretationsmöglichkeiten" |
-| Odyssee-Schlussbox | Über 70 englische Übersetzungen — Übersetzung als ‚Nacherzählen' | S. 34, §1: „Allein Homers ‚Odyssee' hat über 70 englische Versionen [8], von denen keine identisch ist… Übersetzung wird so zu einem ‚Nacherzählen'" |
+| Odyssee-Schluszitat | Über 70 englische Übersetzungen — Übersetzung als ‚Nacherzählen' | S. 34, §1: „Allein Homers ‚Odyssee' hat über 70 englische Versionen [8], von denen keine identisch ist… Übersetzung wird so zu einem ‚Nacherzählen'" |
 
 ---
 
@@ -74,7 +74,7 @@ Keine inhaltlichen Textblöcke aus dem PDF; Gliederungselement des Vortrags.
 | Echo-Zitat | „Was wir das ‚Echo' des antiken Denkens nennen, approximieren wir durch die Menge semantischer und stilistischer Beschränkungen, die über Übersetzer und Systeme hinweg bestehen bleiben — operative Spuren der Rezeption." | S. 35, §1.1 (Seitenangabe S. 35 ist korrekt; die Definition erscheint am Ende von §1/Beginn §1.1) |
 | Drei Teilfragen | Konvergenz · Trainings-Abdruck · Interpretationsvielfalt | S. 35, §1.1: „(1) ein Parallelkorpus… (2) ein Mess-Toolkit… (iii) vorläufige Belege dafür, dass sich LLM-Übersetzungen um bestimmte menschliche Vorbilder gruppieren" |
 | Beitrag der Studie | Parallelkorpus · Metriken-Toolkit · Erste Belege | S. 35, §1.1: drei Elemente (i)–(iii) |
-| Schluss-Box | Übersetzungsunterschiede als Rezeptionsspuren, nicht Rauschen | S. 34, §1.1: „Unterschiede zwischen Übersetzungen sind kein Rauschen, sondern Signale, d. h. operative Spuren der Rezeption" |
+| Schlusszitat| Übersetzungsunterschiede als Rezeptionsspuren, nicht Rauschen | S. 34, §1.1: „Unterschiede zwischen Übersetzungen sind kein Rauschen, sondern Signale, d. h. operative Spuren der Rezeption" |
 
 ---
 
@@ -100,7 +100,7 @@ Keine inhaltlichen Textblöcke aus dem PDF; Gliederungselement des Vortrags.
 | Schritt 02: Alignierung | Claude 3.5 Sonnet (20241022) aligniert Quell- und Zielsätze — 1:n-Zuordnung im XML-Format | S. 38, §4.2: „Anthropics Claude 3.5 Sonnet (claude-3-5-sonnet-20241022), um die Quell- und Zieltexte abzugleichen" — Genaue Erläuterung: ⚠ Andere Modellversion als für die Übersetzung (20240620 ≠ 20241022). „1:n per XML" steht nicht in §4.2, sondern in Anhang A.1 (Listing 1): „Die Zuordnung kann 1:n sein, d. h., ein griechischer Satz kann mehreren englischen Sätzen entsprechen"; XML-Format ebenfalls aus Listing 1. Quellen: §4.2 (Modell, Zweck) + Anhang A.1 (1:n, XML). |
 | Schritt 03: Annotation | spaCy en_core_web_md: Tokenisierung, POS-Tagging, Lemmatisierung | S. 38, §4.1: „Wir verwendeten das englische Modell en_core_web_md… dieselben Vorverarbeitungsschritte wie die altgriechischen Quellen" — Schritte für Altgriechisch explizit: Satzzerlegung, Tokenisierung, POS-Tagging, Lemmatisierung (§4.1); für Englisch als „dieselben Schritte" übernommen. ✓ korrekt in §4.1 belegt. |
 | Schritt 04: Evaluation | TTR · POS · Kollokationen · BLEU/ROUGE/METEOR/chrF++ · LaBSE | Quellenangaben nach Metrik: ⚠ TTR → S. 38–39, §5.1.1 + Abb. 1 (Ergebnisabschnitt, nicht §4.3); ⚠ POS-Verteilung → S. 39, §5.1.2 + Abb. 2 (ebenfalls Ergebnisabschnitt); Kollokationen → S. 38, §4.3.1 ✓; BLEU / ROUGE / METEOR / chrF++ → S. 38, §4.3.2 + Tabelle 4 ✓; Kosinus-Ähnlichkeit (LaBSE) → S. 38, §4.3.2 + Tabelle 4 ✓. TTR und POS werden im Paper nicht in §4 als Methodik eingeführt, sondern erst in §5.1.1/§5.1.2 als Ergebnisse beschrieben. |
-| Schluss-Box: Methodische Pointe | „Derselbe Prompt + API-Batch-Verarbeitung garantiert Vergleichbarkeit. LLMs erhalten keine menschlichen Übersetzungen als Referenz — Ähnlichkeiten entstehen allein aus den Trainingsdaten." | S. 38, §4.2: „Wir nutzten die entsprechenden APIs, Batch-Verarbeitung… um die Vergleichbarkeit zu gewährleisten" ✓. „Keine menschliche Referenz" — nicht explizit im Fließtext, aber aus Anhang A.2 (Listing 2) ableitbar: Prompt enthält nur griechisches XML, keine menschliche Übersetzung. „Ähnlichkeiten aus Trainingsdaten" — Schlussfolgerung aus §5.2.1: „stilistischen Einflusses durch weit verbreitete gemeinfreie oder häufig zitierte Übersetzungen" — als Hypothese belegt ist korrekt, nicht als überspitzt, als gesicherter Befund.|
+| Schlusszitat: Methodische Pointe | „Derselbe Prompt + API-Batch-Verarbeitung garantiert Vergleichbarkeit. LLMs erhalten keine menschlichen Übersetzungen als Referenz — Ähnlichkeiten entstehen allein aus den Trainingsdaten." | S. 38, §4.2: „Wir nutzten die entsprechenden APIs, Batch-Verarbeitung… um die Vergleichbarkeit zu gewährleisten" ✓. „Keine menschliche Referenz" — nicht explizit im Fließtext, aber aus Anhang A.2 (Listing 2) ableitbar: Prompt enthält nur griechisches XML, keine menschliche Übersetzung. „Ähnlichkeiten aus Trainingsdaten" — Schlussfolgerung aus §5.2.1: „stilistischen Einflusses durch weit verbreitete gemeinfreie oder häufig zitierte Übersetzungen" — als Hypothese belegt ist korrekt, nicht als überspitzt, als gesicherter Befund.|
 
 ---
 
@@ -187,7 +187,7 @@ Keine inhaltlichen Textblöcke aus dem PDF; Gliederungselement.
 | Was LLMs können | Strukturell konsistente Übers. · Gattungssignaturen · Mittelfeldniveau | S. 42, §6: „Maschinenausgaben sind konsistent und manchmal konvergent" |
 | Was LLMs nicht können | Interpretative Vielfalt · kreative Lösungen · ἀρετή · Hexameter | S. 42, §6: „eine genaue interpretative Vielfalt zeigt sich nach wie vor stärker bei menschlichen Übersetzern" |
 | Methodischer Mehrwert | Quantitative Loci for Close Reading | S. 35, §1.1: „Die quantitativen Ergebnisse ersetzen daher keine genaue Lektüre; sie priorisieren diese, indem sie Stellen mit Interpretationsdruck markieren" |
-| Schluss-Box: Zentrale Einsicht | Quantitative Ergebnisse priorisieren Nah-Lektüre | S. 35, §1.1 (wörtlich; s. Folie 07 Schluss-Box) |
+| Schlusszitat: Zentrale Einsicht | Quantitative Ergebnisse priorisieren Nah-Lektüre | S. 35, §1.1 (wörtlich; s. Folie 07 Schluss-Box) |
 
 ---
 
